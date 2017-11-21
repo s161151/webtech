@@ -27,6 +27,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
   </head>
 
   <body>
@@ -53,16 +54,27 @@
           <div class="inner cover">
             <h1 class="cover-heading">My to-do list</h1>
             <p class="lead">Manage my to-do list below. Feel free to ask some tasks if you feel that I need to do them. I will check here regularly but I cannot promise that I will do every task.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">The List:</a>
-            </p>
           </div>
 
-          <div class="mastfoot">
+          <div id="myDIV" class="header">
+  <input type="text" id="myInput" placeholder="What task should I do?">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+
+<ul id="myUL">
+  <li class="closable">Call my mom</li>
+  <li class="closable">Do groceries</li>
+  <li class="closable">Meet George</li>
+  <li class="closable">Finish website</li>
+  <li class="closable">Read a book</li>
+  <li class="closable">Organize office</li>
+</ul>
+
+          <!-- <div class="mastfoot">
             <div class="inner">
               <p>Lucas Peeters for Web Technology</p>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -70,8 +82,10 @@
 
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
+    <!-- Bootstrap core JavaScript -->
+    <script
+     type="text/javascript" src="C:/Users/s161151/Documents/Data Science/Year 2/Quarter 2/Web Technology/bootstrap-3.3.7/docs/examples/cover/todo.js">
+   </script>
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
@@ -80,3 +94,4 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
+
