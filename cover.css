@@ -33,6 +33,8 @@ body {
 body {
   color: #fff;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
@@ -141,6 +143,7 @@ ul li {
     padding: 12px 8px 12px 40px;
   /*  background: #333;*/
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
     transition: 0.2s;
 
     /* make the list items unselectable */
