@@ -82,12 +82,11 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 22px;
   cursor: default;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
@@ -157,7 +156,7 @@ ul li:nth-child(odd) {
     background: #333;
 }
 /* Darker background-color on hover */
-ul li:hover {
+.closable:hover {
     background: #ddd;
 }
 
