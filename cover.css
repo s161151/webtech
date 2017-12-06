@@ -70,11 +70,13 @@ body {
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .masthead-nav > li {
   display: inline-block;
   cursor: default;
+  font-family: 'Raleway', sans-serif
 }
 .masthead-nav > li + li {
   margin-left: 20px;
@@ -82,12 +84,13 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 22px;
+  font-size: 20px;
   cursor: default;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
 }
+
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
